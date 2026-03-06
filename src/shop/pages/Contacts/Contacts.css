@@ -1,0 +1,52 @@
+.contacts {
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    display: block;
+    padding: 0 150px;
+}
+.contacts h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 190%;
+}
+.map {
+    float: left;
+    margin-right: 50px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.social > * {
+    margin-right: 10px;
+}
+.social > *:last-child {
+    margin-right: 0;
+}
+.social img {
+        width: 40px;
+}
+
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .contacts {
+        margin: 0;
+        padding: 0 15px;
+        text-align: justify;
+    }
+    .contacts h2 {
+        margin: 0.5ex 0 1ex 0;
+    }
+    .map {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    .social {
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,11 @@
+#typeHeader {
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+@media screen and (max-width:767px) {  /* Smartphone */
+    #typeHeader {
+        display: none;
+    }
+}

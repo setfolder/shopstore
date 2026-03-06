@@ -1,0 +1,14 @@
+.nail {
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.nail img {
+    width: 50px;
+    height: 40px;
+    object-fit: scale-down;
+}
+.nailSelected {
+    border-color: cornflowerblue;
+    outline: 2px solid cornflowerblue;
+}

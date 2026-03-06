@@ -1,0 +1,34 @@
+.settingsMain {
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #EDEDED;
+    padding-bottom: 15px;
+}
+.settingsMain h1 {
+    font-weight: normal;
+    font-size: 140%;
+    margin: 15px;
+}
+.settingsInfo {
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    border-radius: 6px;
+    width: 40%;
+    padding: 10px 20px 5px 10px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .settingsMain {
+        background-color: white;
+        padding-bottom: 0;
+    }
+    .settingsInfo {
+        border: none;
+        width: 100%;
+        padding: 0 20px;
+    }
+}

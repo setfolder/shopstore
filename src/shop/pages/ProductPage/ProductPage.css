@@ -1,0 +1,116 @@
+.PosPageMain {
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    display: flex;
+    align-items: start;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.posName {
+    margin: 0;
+    font-weight: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.posBrand {
+    font-size: 110%;
+    margin: 10px 0 7px 0;
+}
+.posPrice {
+    margin-bottom: 25px;
+}
+.posSign {
+    font-size: 110%;
+    margin-right: 5px;
+}
+.posSum {
+    font-size: 140%;
+    font-weight: 500;
+    paint-order: stroke fill;
+}
+.posColor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.posDetails {
+    margin-bottom: 20px;
+}
+.pdHeader {
+    font-size: 110%;
+    margin-bottom: 3px;
+}
+.posSelect {
+    justify-content: start !important;
+}
+.bigCircle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .PosPageMain {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+    .photo {
+        order: 1;
+        width: 95vw !important;
+        height: 30vh !important;
+        margin: 0 auto 5px auto !important;
+    }
+    .nails {
+        order: 2;
+        display: flex;
+        margin-left: -5px !important;
+        padding-left: 5px;
+        width: 100%;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .nails > * {
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .description {
+        order: 3;
+    }
+    .posName {
+        font-size: 130%;
+    }
+    .posBrand {
+        font-size: 120%;
+    }
+    .posPrice {
+        margin-bottom: 15px;
+    }
+    .posSign {
+        font-size: 120%;
+        margin-right: 10px;
+    }
+    .posSum {
+        font-size: 150%;
+    }
+    .posColor span {
+        font-size: 110%;
+        margin-bottom: 12px;
+    }
+    .posDetails {
+        margin: 20px 0 5px 0 !important;
+    }
+    .pdDesc {
+        padding-right: 10px;
+    }
+    .posSelect {
+        flex-direction: column;
+        align-items: start !important;
+        margin: 20px 0 0 0;
+    }
+}

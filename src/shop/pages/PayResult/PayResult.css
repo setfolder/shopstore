@@ -1,0 +1,30 @@
+.payResMain {
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 15px;
+    background-color: #E1E1E1;
+}
+.payResInfo {
+    background-color: white;
+    width: 40%;
+}
+.btnFolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 30px auto;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .payResMain {
+        display: block;
+        padding: 0;
+        background-color: white;
+    }
+    .payResInfo {
+        width: 100%;
+    }
+}

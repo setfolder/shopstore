@@ -1,0 +1,10 @@
+.conditions {
+    font-size: 85%;
+    text-align: center;
+    margin-top: 35px;
+}
+.condLink {
+    color: #1a6696;
+    text-decoration: underline;
+    cursor: default;
+}

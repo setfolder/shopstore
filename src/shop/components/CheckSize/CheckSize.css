@@ -1,0 +1,16 @@
+.checkSize {
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 46px;
+    line-height: 1.8;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.selectedSize {
+    outline: 2px solid;
+}
+.checkSizeInput {
+    position: absolute;
+    opacity: 0;
+}

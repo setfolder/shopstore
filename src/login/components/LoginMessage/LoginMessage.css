@@ -1,0 +1,13 @@
+.loginMessage {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.alert {
+    color: red;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}

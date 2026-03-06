@@ -1,0 +1,26 @@
+.settingsArticle {
+    margin-bottom: 20px;
+}
+.settingsArticle h3 {
+    font-size: 110%;
+    margin: 0 0 3px 0;
+}
+.settingsValue {
+    border: 1px solid silver;
+    padding: 3px 7px;
+}
+.settingsGrid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 5px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .settingsGrid, .settingsGrid span {
+        display: block;
+    }
+    .settingsGrid span.settingsValue {
+        margin-bottom: 10px;
+    }
+}

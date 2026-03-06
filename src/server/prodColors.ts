@@ -1,0 +1,2 @@
+﻿const prodColors = [["1", "black", "000000"], ["2", "gray", "a7a7a7"], ["3", "white", "ffffff"], ["4", "blue", "0066ff"], ["5", "indigo", "6a2998"], ["6", "red", "ff0000"], ["7", "pink", "ffb7c3"], ["8", "coral", "ff7f70"], ["9", "brown", "a55326"], ["10", "orange", "ff8400"], ["11", "yellow", "ffd700"], ["12", "green", "26a537"], ["14", "teal", "329696"], ["15", "olive", "a5a507"] ]
+export default prodColors

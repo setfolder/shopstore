@@ -1,0 +1,19 @@
+.btnClose {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    padding: 3px 4px 0 4px;
+}
+.btnClose img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .btnClose {
+        display: block;
+    }
+}

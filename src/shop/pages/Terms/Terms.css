@@ -1,0 +1,22 @@
+.terms {
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    display: block;
+    padding: 0 150px;
+}
+.terms h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 190%;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .terms {
+        margin: 0;
+        padding: 0 15px;
+        text-align: justify;
+    }
+    .terms h2 {
+        margin: 0.5ex 0 1ex 0;
+    }
+}

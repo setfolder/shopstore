@@ -1,0 +1,9 @@
+.linkLogin {
+    margin-top: 15px;
+    font-size: 90%;
+    text-align: center;
+    color: gray;
+    text-decoration: underline solid 1px #0784FF;
+    text-underline-position: under;
+    cursor: default;
+}

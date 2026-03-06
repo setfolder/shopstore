@@ -1,0 +1,35 @@
+.modalOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000000AC;
+}
+.contentField {
+    position: relative;
+}
+.btnCloseModal {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+}
+.btnCloseModal img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .modalOverlay {
+        align-items: start;
+    }
+    .btnCloseModal {
+        top: 15px;
+    }
+}

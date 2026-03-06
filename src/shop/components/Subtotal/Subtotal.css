@@ -1,0 +1,8 @@
+.subTotal {
+    text-align: center;
+    font-size: 110%;
+    margin-top: 10px;
+}
+.subTotal span {
+    font-weight: bold;
+}

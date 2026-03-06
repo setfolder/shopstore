@@ -1,0 +1,14 @@
+#cover {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    #cover {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+}

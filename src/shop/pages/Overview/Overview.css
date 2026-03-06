@@ -1,0 +1,36 @@
+.overviewMain {
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 15px;
+    background-color: #E1E1E1;
+}
+.overviewInfo {
+    background-color: white;
+    width: 40%;
+    padding: 12px 30px 20px 30px;
+}
+.overviewInfo h2 {
+    font-weight: normal;
+    font-size: 160%;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+.btnSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .overviewMain {
+        display: block;
+        padding: 0;
+    }
+    .overviewInfo {
+        width: 100%;
+    }
+}

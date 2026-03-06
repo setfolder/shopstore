@@ -1,0 +1,20 @@
+.btnAddToCart {
+    font-size: 90%;
+    display: inline-block;
+    border: 1px solid #FFD814;
+    border-radius: 20px;
+    background-color: #FFD814;
+    padding: 7px 15px;
+    cursor: default;
+    user-select: none;
+    margin-left: 5px;
+}
+.big {
+    padding: 7px 60px !important;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .btnAddToCart {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.btnPlaceOrder {
+    font-size: 90%;
+    border: 1px solid #FFD814;
+    border-radius: 20px;
+    background-color: #FFD814;
+    cursor: default;
+    user-select: none;
+    padding: 7px 60px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+}

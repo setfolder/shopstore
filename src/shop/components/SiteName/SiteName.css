@@ -1,0 +1,29 @@
+.siteLink {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    text-align: center;
+}
+h1.siteName {
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 5px;
+    color: #500C1B;
+    text-align: center;
+    paint-order: stroke fill;
+    margin: 20px 0;
+}
+h1.small {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    h1.siteName {
+        font-size: 28px;
+        letter-spacing: 1px;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,22 @@
+#sorting span {
+    margin-right: 5px;
+    font-size: 95%;
+}
+.sortby {
+    margin-right: 5px;
+    padding: 5px 0;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    background-color: #F7F7F7;
+    font-size: 95%;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    #sorting span {
+        display: none;
+    }
+    .sortby {
+        margin-right: 10px;
+        padding: 8px 3px;
+    }
+}

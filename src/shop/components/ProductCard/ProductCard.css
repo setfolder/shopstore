@@ -1,0 +1,88 @@
+.position {
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    width: 245px;
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.pPic {
+    border-radius: 6px;
+    background-color: #F7F7F7;
+    height: 280px;
+}
+.pPic img {
+    object-fit: scale-down;
+    width:100%;
+    height:100%; 
+}
+.pDescr {
+    padding: 20px 5px 0 5px;
+}
+.pName {
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 0.7ex;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+.pNote {
+    font-size: 100%;
+    margin: 0 5px 10px 0;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+.pPrice {
+    margin-bottom: 10px;
+}
+.pSign {
+    font-size: 110%;
+    margin: 0 7px 0 0;
+}
+.pSum {
+    font-size: 125%;
+    letter-spacing: 0.5px;
+}
+.btnAddToCart {
+    font-size: 90%;
+    display: inline-block;
+    border: 1px solid #FFD814;
+    border-radius: 20px;
+    background-color: #FFD814;
+    padding: 7px 15px;
+    cursor: default;
+    user-select: none;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:767px) {    /* Smartphone */
+    .position {
+        width: 40%;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    .pPic {
+        height: 200px;
+    }
+    .pDescr {
+        padding-top: 0px;
+        padding-bottom: 7px;
+    }
+    .pNote {
+        margin-bottom: 3px;
+    }
+    .pPrice {
+        margin-bottom: 7px;
+    }
+    .btnAddToCart {
+        margin-top: 20px;
+    }
+}

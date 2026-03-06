@@ -1,0 +1,2 @@
+﻿const prodBrands = {"1":"Clarks", "2":"Checkers", "3":"Adidas", "4":"Nike", "5":"Naturalizer", "6":"New Balance", "7":"Kors", "8":"Vestibulum Turpis", "9":"Donec Quis", "10":"Quisque"}
+export default prodBrands

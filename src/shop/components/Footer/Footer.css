@@ -1,0 +1,40 @@
+.toTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    background-color: #003871;
+    cursor: default;
+}
+.bottom {
+    border: 1px solid #002040;
+    color: white;
+    background-color: #002040;
+    cursor: default;
+}
+.menu {
+    text-align: center;
+    margin: 30px auto 35px auto;
+}
+.menu > * {
+    margin-right: 50px;
+}
+.menu > *:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width:767px) {  /* Smartphone */
+    .menu {
+        display: flex;
+        text-align: left;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .menu > * {
+        white-space: nowrap;
+    }
+}
